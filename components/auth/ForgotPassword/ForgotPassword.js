@@ -73,7 +73,7 @@ const ForgotPassword = () => {
 
       <styles.FormContainer>
         <form onSubmit={handleForgotPassword}>
-          <styles.Title h4>Forget your password?</styles.Title>
+          <styles.Title h4>Forgot your password?</styles.Title>
           <Spacer y={10} />
           <styles.TitleText p>It's okay, we get you! What's your email address?</styles.TitleText>
           <Spacer y={40} />
