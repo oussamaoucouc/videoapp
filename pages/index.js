@@ -10,5 +10,5 @@ const BiggerTitle = styled(Title)`
 `
 
 export default function Home() {
-  return <BiggerTitle>My page</BiggerTitle>
+  return <BiggerTitle>Our page</BiggerTitle>
 }
