@@ -186,6 +186,114 @@ flex-grow: 0;
 margin: 0px 10px;
 
 
+`
+export const WrapperDesc = styled.div`
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  height:100%;
+`
+
+export const WrapperDescChild = styled.div`
+width:100%;
+padding:30px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+padding-left:50px;
+/* identical to box height, or 24px */
+
+
+/* Light/Text */
+
+color: #222222;
+
+background: #F5F5F5;
+border: 1px solid lightgray;
+
+`
+export const WrapperDescChildren = styled.div`
+display: flex;
+flex-direction:row;
+flex-wrap: nowrap !important ;
+width:100%;
+height:100%;
 
 
 `
+export const RowFlex = styled.div`
+ display:flex;
+ flex-direction:column;
+ width:70% ;
+ color: #44484E;
+
+background: #F5F5F5;
+padding:50px;
+height:100%;
+
+`
+export const Contenu = styled.div`
+width:100%;
+border : 1px solid gray;
+border-radius: 5px;
+padding:10px;
+margin-top:20px;
+margin-bottom: 20px;
+
+`
+
+export const Contenu2 = styled.div`
+width:100%;
+border : 1px solid gray;
+border-radius: 5px;
+padding:10px;
+margin-top:20px;
+margin-bottom: 20px;
+height:150px;
+
+`
+
+export const WrapperDescChild2 = styled.div`
+width:100%;
+padding:30px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+padding-left:50px;
+/* identical to box height, or 24px */
+
+
+/* Light/Text */
+
+color: #222222;
+
+background: #F5F5F5;
+align-items:right;
+text-align: right;
+justify-content:right;
+border: 1px solid lightgray;
+
+`
+export const ImageTitle = styled.div`
+margin-top: 20px;
+
+`
+
+export const RowFlex2 = styled.div`
+display:flex;
+flex-direction: column;
+margin: 40px;
+height:70%;
+background-color: white;
+
+`
+export const RowFlex2Child = styled.div`
+ 
+margin:24px;
+
+`
+
