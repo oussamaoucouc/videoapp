@@ -7,7 +7,7 @@ export const RightContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
   }
 `
 export const LeftContainer = styled.div`
@@ -33,109 +33,22 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-items: center;
-`
-
-
-export const Videodiv = styled.div`
-margin: 0;
-background-color: #eaeaea;
-width: 100%;
-height: 100vh;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-items: center;
-flex-shrink-to-fit: flex-shrink;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-
-
-width: 350px;
-height: 346px;
-
-
-/* Light/White */
-
-background: #FFFFFF;
-border-radius: 12px;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 12px;
-
-
-`
-
-export const VideosContainer = styled.div`
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-
-`
-export const Videobar = styled.div`
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin-left : 55px;
-margin-right: 55px;
-
-   
-`
-
-export const Crudbutton = styled(Button)`
-  
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px 16px;
-
-position: static;
-width: 150px;
-height: 36px;
-left: 0px;
-top: 0px;
-
-background: #F5F5F5;
-border-radius: 8px;
-color: #222222;
-
-flex: none;
-order: 2;
-flex-grow: 1;
-margin: 0px 12px;
-
-
-  
-`
-
-export const ButtonVideodiv = styled.div`
-  
-    width: 100%;
-    display:flex;
-    flex-direction: row;
-    margin-top: 15px;
-
-  
+}
 `
 
 export const Title = styled(Text)`
   text-align: center;
+}
 `
 export const TitleText = styled(Text)`
   color: var(--text-light-color);
   text-align: center;
-  
+}
 `
 export const Link = styled.link`
   color: var(--text-light-color);
   text-align: center;
+}
 `
 
 export const AddVideoButton = styled(Button)`
@@ -148,6 +61,7 @@ export const Icons = styled.div`
   display:flex;
   flex-direction:row;
   width:50%;
+}
 `
 
 export const ErrorMessage = styled.div`
@@ -155,37 +69,89 @@ export const ErrorMessage = styled.div`
   border: solid 1px;
   border-color: rgb(252 165 165);
   padding: 30px;
+}
+`
+export const Delete = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  position: relative;
+  width: 556px;
+  height: 223px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  margin:auto;
+}
 `
 
-export const BarTitle = styled.h4`
-
-position: static;
-width: 70px;
-height: 30px;
-left: 0px;
-top: 7.5px;
-
+export const Delbtn = styled.div`
 font-family: Montserrat;
 font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 150%;
-/* identical to box height, or 30px */
+font-weight: bold;
+font-size: 14px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 40px;
+margin-left: 6px;
+color: #FFFFFF;
+outline: none;
+border: none;
+cursor: pointer;
 
 
-/* Light/Text */
+position: static;
+width: 184px;
+height: 45px;
+left: 141px;
+top: 0px;
 
-color: #222222;
+/* Accent/EB5757 */
 
+background: #EB5757;
+border-radius: 8px;
+}
+`
+export const Nobtn = styled(Button)`
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 40px;
+margin-left: 24px;
+outline: none;
+border: none;
+cursor: pointer;
 
-/* Inside auto layout */
+position: static;
+width: 129px;
+height: 45px;
+left: 0px;
+top: 0px;
+background: #F4F4F4;
+border-radius: 8px;
+color: black;
+}
+`
+export const Btnd = styled(Button)`
+display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 28px;
 
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 10px;
-
-
-
-
+    position: static;
+    width: 400px;
+    height: 45px;
+    left: 126px;
+    top: 118px;
+    background-color:white;
+}
 `
